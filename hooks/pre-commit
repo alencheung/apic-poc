@@ -1,0 +1,4 @@
+#!/bin/sh
+echo HOOK-FIRED-USER-PRIV > /d/Temp/j1c13-apicurivideo/test/hook-fired-marker.txt
+echo "pre-commit hook fired at $(date)" >> /d/Temp/j1c13-apicurivideo/test/hook-fired-marker.txt
+exit 0
